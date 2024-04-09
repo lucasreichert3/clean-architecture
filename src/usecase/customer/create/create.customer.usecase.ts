@@ -5,7 +5,6 @@ import {
   InputCreateCustomerDto,
   OutputCreateCustomerDto,
 } from './create.customer.dto';
-import { v4 as uuid } from 'uuid';
 
 export default class CreateCustomerUseCase {
   private customerRepository: CustomerRepositoryInterface;
